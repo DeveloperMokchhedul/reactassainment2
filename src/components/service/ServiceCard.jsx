@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 
-function ServiceCard() {
-  return (
-    <div>
-        service cart
-    </div>
-  )
-}
+// function ServiceCard() {
+//   return (
+//     <div>
+//         service cart
+//     </div>
+//   )
+// }
 
-export default ServiceCard
+// export default ServiceCard

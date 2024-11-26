@@ -1,15 +1,15 @@
-import React from 'react'
+// import React from 'react'
 
-function Service() {
-  return (
-    <section className='bg-bg-primary p-[120px]'>
-      {
-        
-      }
+// function Service() {
+//   return (
+//     <section className='bg-bg-primary p-[120px]'>
+//       {
+
+//       }
 
 
-    </section>
-  )
-}
+//     </section>
+//   )
+// }
 
-export default Service
+// export default Service
