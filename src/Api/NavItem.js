@@ -1,0 +1,1 @@
+export const NavItemData = ["About Us", "Pricing", "Customers", "Solutions"]
