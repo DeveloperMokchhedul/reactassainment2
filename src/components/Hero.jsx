@@ -18,7 +18,7 @@ function Hero() {
         <h3 className='text-[24px] leading-[30px] text-primary'>AI SDRs (aiDRs)</h3>
         <Title className="text-[64px] leading-[78px] tracking-[-1px]">More <span className='italic'>leads</span> ,<br /> less <span className='italic'>leads</span>.</Title>
         <Description className="w-[450px]">Train an aiDR on your ICP and messaging matrix. Activate it on a patch. It will send personalized sequences to every target contact.</Description>
-        <Button className="mt-[40px]"><div className='flex items-end gap-[4px] justify-center'>Sign Up for the Beta <LuArrowUpRight className='text-[12px] bg-black/25 border-2 border-black' /> </div></Button>
+        <Button className="flex items-center gap-[5px] mt-[40px]">Sign Up for the Beta  <LuArrowUpRight className='text-[12px] bg-black/25 border-2 border-black' /></Button>
 
     </div>
   )

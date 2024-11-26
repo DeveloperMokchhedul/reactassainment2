@@ -1,15 +1,19 @@
-import React from 'react'
+// import React from 'react'
 import NavbarArea from './components/NavbarArea';
-import Hero from "./components/Hero"
-import { Button } from '@nextui-org/button';
+// import Hero from "./components/Hero"
+// import { Button } from '@nextui-org/button';
+// import Partner from './components/Partner';
+// import Service from './components/service/Service';
 function App() {
   return (
     <>
-    <Button>nextui</Button>
-    {/* <NavbarArea />
-    <main>
+    
+    <NavbarArea />
+    {/* <main className='mb-[200px]'>
       <Hero />
-    </main> */}
+      <Partner />
+      <Service />
+    </main>  */}
     </>
   )
 }

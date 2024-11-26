@@ -16,6 +16,7 @@ export default {
         "primary":"#0FF1F6",
         "secondary":"#183A40",
         "bg-primary":"#002228",
+        "bg-secondary":"#07292F",
         "white":"#FFFFFF"
 
 
