@@ -19,7 +19,7 @@ import { swiperData } from '../Api/Swiper';
 export default function Slider() {
     return (
         <>
-            <div className='bg-bg-secondary pt-[96px] pb-[80px]'>
+            <div className='bg-bg-primary pt-[96px] pb-[80px]'>
                 <Container>
                     <Swiper
                         cssMode={true}

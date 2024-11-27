@@ -5,6 +5,10 @@ import Partner from './components/Partner';
 import Service from './components/service/Service';
 import GetStarted from './components/GetStarted';
 import Slider from "./components/Slider"
+import TrainAidr from './components/TrainAidr';
+import CountUpSection from './components/CountUpSection';
+
+
 function App() {
   return (
     <>
@@ -14,8 +18,10 @@ function App() {
       <Hero />
       <Partner />
       <Service />
-      <GetStarted />
+      <TrainAidr />
       <Slider />
+      {/* <CountUpSection /> */}
+      <GetStarted />
       
     </main> 
     </>
