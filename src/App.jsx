@@ -19,6 +19,7 @@ function App() {
 <main>
   <Hero />
   <Partner />
+  <Service />
 </main>
 
     </>
