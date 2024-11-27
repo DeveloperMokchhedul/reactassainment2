@@ -18,6 +18,7 @@ function App() {
 <NavbarArea />
 <main>
   <Hero />
+  <Partner />
 </main>
 
     </>
