@@ -22,6 +22,7 @@ function App() {
   <Service />
   <TrainAidr />
   <Slider />
+  <CountUpSection />
 
 </main>
 

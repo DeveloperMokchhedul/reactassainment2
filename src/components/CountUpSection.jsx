@@ -20,9 +20,9 @@ function CountUpSection() {
                     margin: "0px 24px",
                 }}
             >
-                <div className="md:w-[600px]  md:pl-[72px]">
+                <div className="md:w-[650px]  md:pl-[72px]">
                     <Title className={"text-[32px] font-semibold leading-[39px]"}>
-                        Allocate effort where your reps make an impact.
+                        Allocate effort where your reps <br /> make an impact.
                     </Title>
                     <Styletext className={"text-primary text-[32px] leading-[39px] tracking-[-1%]"}>
                         Let us handle the rest.
@@ -48,7 +48,7 @@ function CountUpSection() {
                                 <Title className={"text-[40px] text-start md:text-center text-primary font-bold mb-[10px]"}>
                                     {start && <CountUp start={0} end={35} duration={3} />}%
                                 </Title>
-                                <Description className={"text-[17px] text-start md:text-center"}>Improvement in Meetings Booked</Description>
+                                <Description className={" text-[20px] text-start md:text-center"}>Improvement in Meetings Booked</Description>
                             </div>
                         </div>
                     </ScrollTrigger>
