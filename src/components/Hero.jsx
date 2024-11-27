@@ -13,12 +13,12 @@ function Hero() {
         backgroundRepeat:"no-repeat",
         backgroundSize:"cover"
     }}
-    className='py-[110px] px-[120px]'
+    className=' text-center md:text-start pt-[44px] md:py-[110px] px-[16px] md:px-[120px]'
     >
         <h3 className='text-[24px] leading-[30px] text-primary'>AI SDRs (aiDRs)</h3>
         <Title className="text-[64px] leading-[78px] tracking-[-1px]">More <span className='italic'>leads</span> ,<br /> less <span className='italic'>leads</span>.</Title>
-        <Description className="w-[450px]">Train an aiDR on your ICP and messaging matrix. Activate it on a patch. It will send personalized sequences to every target contact.</Description>
-        <Button className="flex items-center gap-[5px] mt-[40px]">Sign Up for the Beta  <LuArrowUpRight className='text-[12px] bg-black/25 border-2 border-black' /></Button>
+        <Description className="md:w-[450px]">Train an aiDR on your ICP and messaging matrix. Activate it on a patch. It will send personalized sequences to every target contact.</Description>
+        <Button className="flex items-center md:gap-[5px] mt-[40px]">Sign Up for the Beta  <LuArrowUpRight className='text-[12px] bg-black/25 border-2 border-black' /></Button>
 
     </div>
   )

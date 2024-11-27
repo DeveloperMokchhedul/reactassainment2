@@ -5,7 +5,7 @@ function Description({ children, className }) {
   return (
     <>
 
-      <p className={cn(`font-worksans font-light text-[20px] leading-[26px] text-white`, className)}>{children}</p>
+      <p className={cn(`font-worksans font-light  text-[16px] md:text-[20px] md:leading-[26px] text-white`, className)}>{children}</p>
 
     </>
   )
