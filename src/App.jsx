@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import Partner from './components/Partner';
 import Service from './components/service/Service';
 import GetStarted from './components/GetStarted';
+import Slider from "./components/Slider"
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <Partner />
       <Service />
       <GetStarted />
+      <Slider />
       
     </main> 
     </>
