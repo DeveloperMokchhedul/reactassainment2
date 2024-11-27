@@ -20,7 +20,7 @@ function App() {
       <Service />
       <TrainAidr />
       <Slider />
-      {/* <CountUpSection /> */}
+      <CountUpSection />
       <GetStarted />
       
     </main> 
