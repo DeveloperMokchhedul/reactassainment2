@@ -28,7 +28,7 @@ export default function Slider() {
                         mousewheel={true}
                         keyboard={true}
                         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-                        className="mySwiper"
+                        className="mySwiper "
                     >
                         {
                             swiperData.map((data,index)=>(

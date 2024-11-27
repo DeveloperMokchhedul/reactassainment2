@@ -20,6 +20,9 @@ function App() {
   <Hero />
   <Partner />
   <Service />
+  <TrainAidr />
+  <Slider />
+
 </main>
 
     </>
