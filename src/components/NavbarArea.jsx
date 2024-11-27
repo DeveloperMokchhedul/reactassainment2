@@ -7,14 +7,23 @@ import { NavItemData } from '../Api/NavItem';
 function NavbarArea() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
+
+    const menuItems = [
+        "AboutUs",
+        "Pricing",
+        "Customers",
+        "Solutions",
+      ];
+    
+
     return (
-        <div className='bg-bg-primary'  >
-            <Navbar className='bg-transparent w-full flex justi' maxWidth='xl'
+        <div className='bg-bg-primary  '  >
+            <Navbar className='bg-transparent w-full flex justify-center items-center py-[24px] md:px-[25px] lg:px-[20px] xl:px-[100px] ' maxWidth='2xl'
                 isBordered
                 isMenuOpen={isMenuOpen}
                 onMenuOpenChange={setIsMenuOpen}
             >
-    
+
 
                 <NavbarContent className=" pr-3" justify="center">
                     <NavbarBrand>
@@ -24,7 +33,7 @@ function NavbarArea() {
 
                 <NavbarContent className="hidden md:flex gap-4" justify="center">
                     {
-                        NavItemData.map((item, index) => (
+                        menuItems.map((item, index) => (
                             <NavbarItem key={index}>
                                 <Link className="text-white" href="#">
                                     {item}
@@ -34,38 +43,35 @@ function NavbarArea() {
                     }
                 </NavbarContent>
 
+                <div>
+                    <NavbarContent className='hidden md:flex' justify="end">
+                        <NavbarItem className="">
+                            <Button className='bg-primary'>Book a Demo</Button>
+                        </NavbarItem>
+                        <NavbarItem>
+                            <Button className='border-1 border-white bg-transparent text-white'>Contact Us</Button>
+                        </NavbarItem>
+                    </NavbarContent>
+
+                    <NavbarContent className="md:hidden" justify="end">
+                        <NavbarMenuToggle className='text-white' aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
+                    </NavbarContent>
+
+                </div>
 
 
 
 
 
 
-                <NavbarContent className='hidden md:flex' justify="end">
-                    <NavbarItem className="">
-                        <Button className='bg-primary'>Book a Demo</Button>
-                    </NavbarItem>
-                    <NavbarItem>
-                        <Button className='border-1 border-white bg-transparent text-white'>Contact Us</Button>
-                    </NavbarItem>
-                </NavbarContent>
 
-                <NavbarContent className="md:hidden" justify="end">
-                    <NavbarMenuToggle className='text-white' aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
-                </NavbarContent>
-
-
-
-
-
-                <NavbarMenu className=''>
-                    {NavItemData.map((item, index) => (
+                <NavbarMenu className=' bg-black text-white flex justify-center items-center'>
+                    {menuItems.map((item, index) => (
                         <NavbarMenuItem key={`${item}-${index}`}>
                             <Link
-                                className="w-full"
-                                color={
-                                    index === 2 ? "warning" : index === NavItemData.length - 1 ? "danger" : "foreground"
-                                }
-                                href="#"
+                         
+                                className="text-white"
+                                href={item}
                                 size="lg"
                             >
                                 {item}

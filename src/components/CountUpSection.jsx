@@ -20,7 +20,7 @@ function CountUpSection() {
                     margin: "0px 24px",
                 }}
             >
-                <div className="md:w-[650px]  md:pl-[72px]">
+                <div className="md:w-[650px]  md:pl-[30px] xl:pl-[72px]">
                     <Title className={"text-[32px] font-semibold leading-[39px]"}>
                         Allocate effort where your reps <br /> make an impact.
                     </Title>

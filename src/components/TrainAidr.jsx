@@ -16,7 +16,7 @@ function TrainAidr() {
                     margin: "0px 24px", // Reduced margin for small screens
                 }}
             >
-                <div className='w-full md:w-3/5 mx-auto md:ml-[486px] md:px-4 py-[32px] md:py-[0px] px-[24px]'>
+                <div className='w-full xl:w-3/5 mx-auto md:ml-[20px] xl:ml-[486px] md:px-4 py-[32px] md:py-[0px] px-[24px]'>
                     <Title className="  font-bold text-[32px] md:text-[40px]">
                         Train your aiDR on your...
                     </Title>

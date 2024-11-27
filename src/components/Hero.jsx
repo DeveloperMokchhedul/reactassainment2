@@ -13,7 +13,7 @@ function Hero() {
         backgroundRepeat:"no-repeat",
         backgroundSize:"cover"
     }}
-    className=' text-center md:text-start pt-[44px] pb-[72px] md:py-[110px] px-[16px] md:px-[120px]'
+    className=' text-center md:text-start pt-[44px] pb-[72px] md:py-[110px] px-[16px] md:px-[40px] xl:px-[120px]'
     >
         <h3 className='text-[16px] md:text-[24px] leading-[19px] md:leading-[30px] text-primary'>AI SDRs (aiDRs)</h3>
         <Title className="text-[40px] md:text-[64px] leading-[44px] md:leading-[78px] md:tracking-[-1px]">More <span className='italic'>leads</span> ,<br /> less <span className='italic'>leads</span>.</Title>

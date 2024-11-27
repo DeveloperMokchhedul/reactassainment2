@@ -4,8 +4,8 @@ import ServiceCard from './ServiceCard'
 
 function Service() {
   return (
-    <section className='bg-bg-primary py-[40px] px-[24px] md:px-[0px] md:py-[120px]'>
-      <div className='flex gap-[48px] md:gap-[24px] flex-wrap justify-center'>
+    <section className='bg-bg-primary py-[40px] px-[24px] md:px-[50px] md:py-[120px]'>
+      <div className='flex gap-[48px] md:gap-[24px] flex-wrap lg:justify-center md:justify-start'>
         {
           serviceItem.map((item, index) => (
             <div key={index}   >
