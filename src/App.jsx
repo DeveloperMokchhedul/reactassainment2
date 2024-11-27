@@ -8,23 +8,25 @@ import TrainAidr from './components/TrainAidr';
 import CountUpSection from './components/CountUpSection';
 import Footer from './components/Footer';
 import NavbarArea from "./components/NavbarArea"
+import { Route, Routes } from 'react-router-dom';
+import AboutUs from './Pages/AboutUs';
+import Pricing from './Pages/Pricing';
+import Customers from './Pages/Customers';
+import Solutions from './Pages/Solutions';
 
 
 
 function App() {
   return (
     <>
-
 <NavbarArea />
-<main>
-  <Hero />
-  <Partner />
-  <Service />
-  <TrainAidr />
-  <Slider />
-  <CountUpSection />
-  <GetStarted />
-</main>
+    <Routes>
+      <Route path= '/'  element = {<AboutUs />} />
+      <Route path= '/aboutus'  element = {<AboutUs />} />
+      <Route path= '/pricing'  element = {<Pricing />} />
+      <Route path= '/customers'  element = {<Customers  />} />
+      <Route path= '/solutions'  element = {<Solutions  />} />
+    </Routes>
 <Footer />
 
     </>

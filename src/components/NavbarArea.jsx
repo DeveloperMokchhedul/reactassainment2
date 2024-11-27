@@ -9,12 +9,12 @@ function NavbarArea() {
 
 
     const menuItems = [
-        "AboutUs",
-        "Pricing",
-        "Customers",
-        "Solutions",
-      ];
-    
+        "aboutus",
+        "pricing",
+        "customers",
+        "solutions",
+    ];
+
 
     return (
         <div className='bg-bg-primary  '  >
@@ -32,24 +32,38 @@ function NavbarArea() {
                 </NavbarContent>
 
                 <NavbarContent className="hidden md:flex gap-4" justify="center">
-                    {
-                        menuItems.map((item, index) => (
-                            <NavbarItem key={index}>
-                                <Link className="text-white" href="#">
-                                    {item}
-                                </Link>
-                            </NavbarItem>
-                        ))
-                    }
+
+                    <NavbarItem >
+                        <Link className="text-white" href="aboutus">
+                            AboutUs
+                        </Link>
+                    </NavbarItem>
+
+                    <NavbarItem >
+                        <Link className="text-white" href="pricing">
+                            Pricing
+                        </Link>
+                    </NavbarItem>
+                    <NavbarItem >
+                        <Link className="text-white" href="customers">
+                            Customers
+                        </Link>
+                    </NavbarItem>
+                    <NavbarItem >
+                        <Link className="text-white" href="solution">
+                            Solution
+                        </Link>
+                    </NavbarItem>
+
                 </NavbarContent>
 
                 <div>
                     <NavbarContent className='hidden md:flex' justify="end">
                         <NavbarItem className="">
-                            <Button className='bg-primary'>Book a Demo</Button>
+                            <Button className='bg-primary  scale-105 duration-700 transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-110'>Book a Demo</Button>
                         </NavbarItem>
                         <NavbarItem>
-                            <Button className='border-1 border-white bg-transparent text-white'>Contact Us</Button>
+                            <Button className='border-1 border-white bg-transparent text-white  transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-110'>Contact Us</Button>
                         </NavbarItem>
                     </NavbarContent>
 
@@ -69,7 +83,7 @@ function NavbarArea() {
                     {menuItems.map((item, index) => (
                         <NavbarMenuItem key={`${item}-${index}`}>
                             <Link
-                         
+
                                 className="text-white"
                                 href={item}
                                 size="lg"

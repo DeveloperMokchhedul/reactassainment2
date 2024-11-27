@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/modules'; // Add Autoplay module
+import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/modules';
 import Container from './common/Container';
 import Description from './common/Description';
 import Title from './common/Title';
@@ -12,7 +12,7 @@ import { swiperData } from '../Api/Swiper';
 
 export default function Slider() {
     useEffect(() => {
-        // Custom navigation buttons
+
         const prevButton = document.querySelector('.custom-prev');
         const nextButton = document.querySelector('.custom-next');
 
@@ -38,11 +38,11 @@ export default function Slider() {
                         pagination={{ clickable: true }}
                         mousewheel={true}
                         keyboard={true}
-                        loop={true} // Enable loop
+                        loop={true} 
                         autoplay={{
-                            delay: 3000, // Delay between slides in ms
-                            disableOnInteraction: false, // Continue autoplay after user interaction
-                            reverseDirection: false, // To reverse slides
+                            delay: 3000, 
+                            disableOnInteraction: false, 
+                            reverseDirection: false, 
                         }}
                         modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
                         className="mySwiper"
@@ -69,7 +69,7 @@ export default function Slider() {
                         ))}
                     </Swiper>
 
-                    {/* Custom Navigation Buttons */}
+              
                     <div className="hidden md:flex justify-between mt-4">
                         <button className="custom-prev text-white absolute top-[45%] left-[150px] px-4 py-2 rounded cursor-pointer">
                             <img className="rotate-180" src="/images/next.png" alt="" />
