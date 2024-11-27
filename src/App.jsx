@@ -7,23 +7,24 @@ import GetStarted from './components/GetStarted';
 import Slider from "./components/Slider"
 import TrainAidr from './components/TrainAidr';
 import CountUpSection from './components/CountUpSection';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
     <>
-    
-    <NavbarArea />
-    <main className='mb-[200px]'>
-      <Hero />
-      <Partner />
-      <Service />
-      <TrainAidr />
-      <Slider />
-      <CountUpSection />
-      <GetStarted />
-      
-    </main> 
+
+      <NavbarArea />
+      <main className=''>
+        <Hero />
+        <Partner />
+        <Service />
+        <TrainAidr />
+        <Slider />
+        <CountUpSection />
+        <GetStarted />
+      </main>
+      <Footer />
     </>
   )
 }
