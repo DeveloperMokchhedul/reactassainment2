@@ -16,6 +16,9 @@ function App() {
     <>
 
 <NavbarArea />
+<main>
+  <Hero />
+</main>
 
     </>
   )
