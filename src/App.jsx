@@ -23,6 +23,7 @@ function App() {
   <TrainAidr />
   <Slider />
   <CountUpSection />
+  <GetStarted />
 
 </main>
 
