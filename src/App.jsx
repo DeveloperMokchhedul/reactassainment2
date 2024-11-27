@@ -24,8 +24,8 @@ function App() {
   <Slider />
   <CountUpSection />
   <GetStarted />
-
 </main>
+<Footer />
 
     </>
   )
